@@ -1,5 +1,5 @@
 import React from "react";
-import { IoMdArrowDropdown } from "react-icons/io";
+
 const TopSection = () => {
   return (
     <div className="container mx-auto flex justify-between items-center bg-white  gap-4 ">
@@ -53,16 +53,7 @@ const TopSection = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center">
-        <img
-          src={require("../assets/topsection/britishLogo.jpg")}
-          alt=""
-          className="h-10"
-        />
-        <span className="text-blue-500 text-2xl">
-          <IoMdArrowDropdown />
-        </span>
-      </div>
+    
     </div>
   );
 };
