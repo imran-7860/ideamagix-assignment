@@ -2,7 +2,7 @@ import React from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
 const TopSection = () => {
   return (
-    <div className="container mx-auto flex justify-center items-center bg-white  gap-10  ">
+    <div className="container mx-auto flex justify-between items-center bg-white  gap-4 ">
       <div className="">
         <img
           src={require("../assets/topsection/aafiya m.png")}

@@ -3,9 +3,9 @@ import { FaRegCircle } from "react-icons/fa";
 
 const EligibilitySection = () => {
   return (
-    <div className="container mx-auto">
-      <div className=" grid grid-cols-2 ">
-        <div className="p-10 w-[120%]">
+    <div id="Eligibility" className="container mx-auto">
+      <div className="  ">
+        <div className="p-10 ">
           <h1 className="text-4xl font-semibold mt-5">
             Eligibility For Treatment
             <span className="text-red-500 text-3xl">.</span>
@@ -42,30 +42,7 @@ const EligibilitySection = () => {
           </div>
           <div className="border border-blue-500 border-dotted  w-full font-bold mt-10"></div>
         </div>
-        <div className="">
-          <form className="flex flex-col justify-center shadow-xl p-10 rounded-md gap-7 max-w-[360px] ml-52 mt-5">
-            <h1 className="text-4xl text-blue-500 font-serif">Need Help ?</h1>
-            <div>Just let us know. We will be happy to assist you.</div>
-            <input
-              type="text"
-              placeholder="Full Name"
-              className="outline-none border border-gray-200 p-2"
-            />
-            <input
-              type="email"
-              placeholder="Email"
-              className="outline-none border border-gray-200 p-2"
-            />
-            <input
-              type="tel"
-              placeholder="Phone Number"
-              className="outline-none border border-gray-200 p-2"
-            />
-            <button className="bg-blue-500 text-white  rounded p-2 px-10">
-              Send Enquiry
-            </button>
-          </form>
-        </div>
+       
       </div>
     </div>
   );

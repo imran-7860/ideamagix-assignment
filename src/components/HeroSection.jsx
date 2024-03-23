@@ -3,12 +3,12 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const HeroSection = () => {
   return (
-    <div className="container mx-auto h-min  bg-cover bg-no-repeat relative flex flex-nowrap">
-      <div className="flex flex-row">
+    <div className=" h-min  bg-cover bg-no-repeat relative flex flex-nowrap">
+      <div className="">
       
         <img src={require("../assets/home/bg 1.jpg")} alt="" />
       </div>
-      <div className="absolute inset-0 left-0 top-0 h-full w-full  ">
+      <div className="absolute inset-0 left-0 top-0 h-full w-full container mx-auto ">
         <div className=" ">
           <div className="text-white font-medium flex gap-4 mt-16 ml-8">
             <div className="flex items-center gap-2">

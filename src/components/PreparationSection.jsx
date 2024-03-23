@@ -3,9 +3,9 @@ import { FaRegCircle } from "react-icons/fa";
 
 const PreparationSection = () => {
   return (
-    <div className="container mx-auto">
-      <div className=" grid grid-cols-2 ">
-        <div className="ml-10 w-[120%]">
+    <div id="Preparation" className="container mx-auto">
+      <div className="  ">
+        <div className="ml-10 ">
           <h1 className="text-4xl font-semibold ">
             Preparation Before Treatment
             <span className="text-red-500 text-3xl">.</span>
@@ -42,7 +42,7 @@ const PreparationSection = () => {
           </div>
           <div className="border border-blue-500 border-dotted  w-full font-bold mt-10"></div>
         </div>
-        <div className=""></div>
+       
       </div>
     </div>
   );

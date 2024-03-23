@@ -3,8 +3,8 @@ import { CiSearch } from "react-icons/ci";
 
 const Navbar = () => {
   return (
-    <div className="container mx-auto">
-      <nav className="bg-blue-500 mx-auto flex justify-start items-center  text-white  w-full">
+    <div className="bg-blue-500">
+      <nav className="container mx-auto flex justify-between items-center  text-white  w-full">
         <div className="flex gap-6 text-lg font-medium">
           <div className="ml-8">Home</div>
           <div className="">About Us</div>

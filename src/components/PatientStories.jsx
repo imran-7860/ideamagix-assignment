@@ -30,7 +30,7 @@ const PatientStories = () => {
   };
 
   return (
-    <div className="container mx-auto ">
+    <div id="Patient" className="container mx-auto ">
       <div className="grid grid-cols-2 ">
         <div className="ml-10 w-[120%] mb-5">
           <h1 className="text-4xl font-semibold mt-5">
