@@ -1,14 +1,11 @@
 import React from "react";
-// import bgimg from "../assets/home/hero-back.jpg";
-// import bgimg1 from "../assets/home/hero-back2.avif";
 import { IoIosArrowForward } from "react-icons/io";
+
 const HeroSection = () => {
   return (
     <div className="container mx-auto h-min  bg-cover bg-no-repeat relative flex flex-nowrap">
       <div className="flex flex-row">
-        {/* <img src={bgimg1} alt="" className="w-[850px] h-[500px] " />
-
-        <img src={bgimg} alt="" className="w-[450px] h-[500px] " /> */}
+      
         <img src={require("../assets/home/bg 1.jpg")} alt="" />
       </div>
       <div className="absolute inset-0 left-0 top-0 h-full w-full  ">

@@ -5,7 +5,7 @@ const CategorySection = () => {
         <div className="container mx-auto flex border border-b-gray-300 h-[70px]">
             <div className="">
                 <ul id="Active" className="flex items-center gap-14 text-lg font-medium mt-5">
-                    <li><a href="#" className="ml-8">Overview</a></li>
+                    <li><a href="#" className="ml-8 cursor-pointer hover:underline ">Overview</a></li>
                     <li><a href="#" className="">Eligibility</a></li>
                     <li><a href="#" className="">Preparation</a></li>
                     <li><a href="#" className="">About Treatment</a></li>
