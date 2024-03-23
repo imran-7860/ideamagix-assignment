@@ -5,7 +5,7 @@ const PreparationSection = () => {
   return (
     <div id="Preparation" className="container mx-auto">
       <div className="  ">
-        <div className="ml-10 ">
+        <div className="p-10">
           <h1 className="text-4xl font-semibold ">
             Preparation Before Treatment
             <span className="text-red-500 text-3xl">.</span>

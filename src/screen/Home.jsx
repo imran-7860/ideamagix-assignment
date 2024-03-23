@@ -28,7 +28,7 @@ const Home = () => {
         <HeroSection />
       </div>
       <div className="relative container mx-auto">
-        <div className="sticky top-0 z-10  bg-white lg:col-span-3">
+        <div className="sticky top-0 z-20  bg-white lg:col-span-3">
           <CategorySection />
         </div>
         <TreatmentSection />
@@ -42,8 +42,10 @@ const Home = () => {
             <FAQSection />
             <PatientStories />
           </div>
-          <div className="sticky top-6 z-20 ">
+          <div className="h-full">
+          <div className="sticky top-20 z-10  ">
             <Form />
+          </div>
           </div>
         </div>
       </div>

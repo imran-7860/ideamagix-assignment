@@ -3,8 +3,8 @@ import { FaRegCircle } from "react-icons/fa";
 const PostTreatmentSection = () => {
   return (
     <div id="Treatment" className="container mx-auto">
-      <div className=" grid grid-cols-2 ">
-        <div className="ml-10 w-[120%]">
+      <div className="  ">
+        <div className="p-10">
           <h1 className="text-4xl font-semibold mt-10 ">
             Post-Treatment Care Treatment
             <span className="text-red-500 text-3xl">.</span>

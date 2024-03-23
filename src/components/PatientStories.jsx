@@ -10,6 +10,7 @@ const PatientStories = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 2,
+    
     slidesToScroll: 1,
     responsive: [
       {
@@ -31,8 +32,8 @@ const PatientStories = () => {
 
   return (
     <div id="Patient" className="container mx-auto ">
-      <div className="grid grid-cols-2 ">
-        <div className="ml-10 w-[120%] mb-5">
+      <div className="">
+        <div className="p-10 ">
           <h1 className="text-4xl font-semibold mt-5">
             Patient Stories & Videos
             <span className="text-red-500 text-3xl">.</span>

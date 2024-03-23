@@ -3,8 +3,8 @@ import { FaRegCircle } from "react-icons/fa";
 const RecoverySection = () => {
   return (
     <div id="Recovery" className="container mx-auto">
-      <div className=" grid grid-cols-2 ">
-        <div className="ml-10 w-[120%]">
+      <div className="  ">
+        <div className="p-10">
           <h1 className="text-4xl font-semibold mt-10 ">
             Treatment Recovery Tips
             <span className="text-red-500 text-3xl">.</span>
